@@ -37,7 +37,7 @@ const images = [
 for (let i = 0; i < images.length; i++ ) {
     let games = images[i]; 
     imgContainer.innerHTML += `
-    <img class="${i == 0 ? 'active' : ''}" src="assets/${games.image}">
+    <img class="${i == 0 ? 'active' : ''}" src="${games.image}">
     <div class="description">
         <h2 class="${i == 0 ? 'active' : ''}">${games.title}</h2>
         <p class="${i == 0 ? 'active' : ''}">${games.text}</p>
